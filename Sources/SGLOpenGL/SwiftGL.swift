@@ -176,7 +176,7 @@ func getAddress(_ info: CommandInfo) -> UnsafeMutableRawPointer {
     
 #else
 
-    func lookupAddress(info: commandInfo) -> UnsafeMutableRawPointer? {
+    func lookupAddress(info: CommandInfo) -> UnsafeMutableRawPointer? {
         fatalError("Unsupported OS")
     }
 
